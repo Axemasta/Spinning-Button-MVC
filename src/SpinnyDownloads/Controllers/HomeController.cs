@@ -22,6 +22,7 @@ namespace SpinnyDownloads.Controllers
 
             var fileBytes = System.IO.File.ReadAllBytes(downloadPath);
 
+            //return File(fileBytes, "application/zip", "filedownload.zip");
             var file = File(fileBytes, "application/zip", "filedownload.zip");
 
             return Json(file, JsonRequestBehavior.AllowGet);
