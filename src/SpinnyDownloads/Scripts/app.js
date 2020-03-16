@@ -44,7 +44,7 @@ $(document).ready(function () {
 
         $.ajax({
             type: 'POST',
-            url: '/Home/DownloadFile'
+            url: '/Home/IndirectDownload'
         }).done(function (response) {
 
             var bytes = new Uint8Array(response.FileContents);
