@@ -1,7 +1,7 @@
 # Spinning-Button-MVC
 An ASP.NET MVC demo for having spinning buttons on downloads!
 
-![Screenshot of the site](/assets/Main Site.png)
+![Screenshot of the site](/assets/Main%20Site.png)
 
 ## Setup
 
@@ -28,11 +28,11 @@ This is just demonstrating the button spinner. Click the button and it will spin
 
 #### Before
 
-![Test 1 Before](/assets/Test 1 Before.png)
+![Test 1 Before](/assets/Test%201%20Before.png)
 
 #### After
 
-![Test 1 After](/assets/Test 1 After.png)
+![Test 1 After](/assets/Test%201%20After.png)
 
 
 
@@ -52,13 +52,13 @@ public async Task<ActionResult> DirectDownload()
 
 #### Before
 
-![Test 2 Before](/assets/Test 2 Before.png)
+![Test 2 Before](/assets/Test%202%20Before.png)
 
 #### After
 
 The biggest problem is that calling the download this way means the button spinner cannot be added. The user has no idea what is happening (during my simulated 2 second delay).
 
-![Test 2 After](/assets/Test 2 After.png)
+![Test 2 After](/assets/Test%202%20After.png)
 
 The file will download from the browser after a short delay.
 
@@ -96,10 +96,10 @@ link.click();
 
 #### Before
 
-![Test 3 Before](/assets/Test 3 Before.png)
+![Test 3 Before](/assets/Test%203%20Before.png)
 
 #### After
 
-![Test 3 After](/assets/Test 3 After.png)
+![Test 3 After](/assets/Test%203%20After.png)
 
 The file will download from the browser after a short delay. The spinner is present whilst the user is waiting and removed once the file has been downloaded, perfect! 😄
